@@ -1,3 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-3");
+
+* {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
 .body {
   position: relative;
   background-image: url("C:\Users\leand\OneDrive\Área de Trabalho\projeto compasss - esboço\portal-compasss-esboço\src\assets\Ativo 3.png");
