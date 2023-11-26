@@ -28,5 +28,9 @@
     255,
     255,
     0.8
-  ); /* Cor branca com 50% de opacidade */
+  ); /* Cor branca com 80% de opacidade */
+}
+
+.container {
+  margin-right: 0;
 }
