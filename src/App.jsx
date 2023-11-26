@@ -3,8 +3,8 @@ import router from "./Router";
 
 export default () => {
   return (
-    <>
+    <div>
       <RouterProvider router={router} />
-    </>
+    </div>
   );
 };
