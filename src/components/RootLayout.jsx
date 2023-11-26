@@ -13,6 +13,7 @@ export default () => {
                   <li>
                     <a
                       className="waves-effect waves-dark"
+                      target="_blank"
                       href="https://br.linkedin.com/company/compasss-tecnologia"
                     >
                       <i className="bi bi-linkedin "></i>
@@ -21,6 +22,7 @@ export default () => {
                   <li>
                     <a
                       className="waves-effect waves-dark"
+                      target="_blank"
                       href="https://www.instagram.com/compassstech/"
                     >
                       <i className="bi bi-instagram "></i>
@@ -29,6 +31,7 @@ export default () => {
                   <li>
                     <a
                       className="waves-effect waves-dark"
+                      target="_blank"
                       href="https://www.facebook.com/compassstecnologia/?locale=pt_BR"
                     >
                       <i className="bi bi-facebook "></i>
