@@ -5,11 +5,11 @@ import "./styles/icons/bootstrap-icons.css";
 export default () => {
   return (
     <>
-      <div className="fixed-top">
+      <div className="fixed-top ">
         <header className="topbar">
           <div className="container pr-1 col-12 ">
             <div className="row">
-              <div className="col-sm-12 ">
+              <div className="col-sm-12">
                 <ul className="social-network">
                   <li>
                     <a
