@@ -165,7 +165,7 @@ li {
   background: linear-gradient(45deg, #2da837 70%, #1b1e21 48%);
 } */
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   .mx-background-top-linear {
     background: -webkit-linear-gradient(
       45deg,
@@ -183,7 +183,7 @@ li {
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
   .mx-background-top-linear {
     background: -webkit-linear-gradient(
       45deg,
