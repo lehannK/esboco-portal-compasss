@@ -159,10 +159,26 @@ li {
   background-color: #222 !important;
 }
 
-.mx-background-top-linear {
+/* .mx-background-top-linear {
   background: -webkit-linear-gradient(45deg, #2da837 48%, #1b1e21 48%);
   background: -webkit-linear-gradient(left, #2da837 48%, #1b1e21 48%);
   background: linear-gradient(45deg, #2da837 70%, #1b1e21 48%);
+} */
+
+.mx-background-top-linear {
+  background: -webkit-linear-gradient(
+    45deg,
+    #1b1e21 0%,
+    #2da837 70%,
+    #9ac553 70%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #1b1e21 0%,
+    #2da837 70%,
+    #9ac553 70%
+  );
+  background: linear-gradient(45deg, #2da837 0%, #9ac553 70%, #1b1e21 0%);
 }
 
 .footer {
@@ -179,14 +195,42 @@ li {
   height: 3.3rem;
 }
 
+.footer-text {
+  font-size: 9px;
+}
+
+@media (max-width: 320px) {
+  .footer {
+    height: 7rem;
+    font-style: italic;
+  }
+  .text-xl {
+    font-size: 14px;
+  }
+  .footer-info {
+    display: flex;
+    align-items: center;
+  }
+  .footer-text {
+    margin-left: 2px;
+  }
+}
 .logo-compasss {
-  width: 150px;
+  width: 110px;
   height: auto;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
   margin-right: 1rem;
+}
+
+@font-face {
+  font-family: "compasss-font"; /* Nome que você deseja dar à fonte */
+  src: url("C:\Users\leand\OneDrive\Área de Trabalho\projeto compasss - esboço\portal-compasss-esboço\src\assets\Striker-1GXl0.otf"); /* Caminho para o arquivo da sua fonte */
+  /* Outras variações de fonte (se aplicável) */
+  font-weight: normal; /* Peso da fonte */
+  font-style: normal; /* Estilo da fonte */
 }
 
 .text-xl {
@@ -196,8 +240,6 @@ li {
   transform: translateY(-50%);
   left: 0;
   margin-left: 1rem;
-}
-
-.nav-item {
-  text-align: left;
+  font-family: "compasss-font";
+  /* font-size: 1rem; */
 }
