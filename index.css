@@ -6,11 +6,11 @@
 
 .body {
   position: relative;
-  background-image: url("C:\Users\leand\OneDrive\Área de Trabalho\projeto compasss - esboço\portal-compasss-esboço\src\assets\Ativo 3.png");
+  background-image: url("../esboco-portal-compasss/src/assets/Ativo 3.png");
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,8 +29,4 @@
     255,
     0.8
   ); /* Cor branca com 80% de opacidade */
-}
-
-.container {
-  margin-right: 0;
 }

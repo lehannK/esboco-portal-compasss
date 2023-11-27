@@ -165,20 +165,40 @@ li {
   background: linear-gradient(45deg, #2da837 70%, #1b1e21 48%);
 } */
 
-.mx-background-top-linear {
-  background: -webkit-linear-gradient(
-    45deg,
-    #1b1e21 0%,
-    #2da837 70%,
-    #9ac553 70%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    #1b1e21 0%,
-    #2da837 70%,
-    #9ac553 70%
-  );
-  background: linear-gradient(45deg, #2da837 0%, #9ac553 70%, #1b1e21 0%);
+@media (max-width: 990px) {
+  .mx-background-top-linear {
+    background: -webkit-linear-gradient(
+      45deg,
+      #1b1e21 0%,
+      #2da837 70%,
+      #9ac553 70%
+    );
+    background: -webkit-linear-gradient(
+      left,
+      #1b1e21 0%,
+      #2da837 70%,
+      #9ac553 70%
+    );
+    background: linear-gradient(45deg, #2da837 0%, #9ac553 70%, #1b1e21 0%);
+  }
+}
+
+@media (min-width: 991px) {
+  .mx-background-top-linear {
+    background: -webkit-linear-gradient(
+      45deg,
+      #1b1e21 0%,
+      #2da837 70%,
+      #9ac553 70%
+    );
+    background: -webkit-linear-gradient(
+      left,
+      #1b1e21 0%,
+      #2da837 70%,
+      #9ac553 70%
+    );
+    background: linear-gradient(45deg, #2da837 0%, #9ac553 63%, #1b1e21 0%);
+  }
 }
 
 .footer {
@@ -190,9 +210,9 @@ li {
   -ms-flex-align: center;
   -ms-flex-pack: justify;
   padding: 5px;
-  border-radius: 7px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
   background-color: #212529;
-  height: 3.3rem;
 }
 
 .footer-text {
@@ -205,7 +225,36 @@ li {
     font-style: italic;
   }
   .text-xl {
+    font-size: 12px;
+    /* font-style: italic; */
+  }
+  .footer-info {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+  }
+  .footer-text {
+    margin-left: 2px;
+  }
+  .logo-compasss {
+    width: 90px;
+    margin-right: 0.5rem;
+  }
+  .bi-geo-alt,
+  .bi-telephone,
+  .bi-envelope {
+    margin-left: 0.1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .footer {
+    height: 7rem;
+    font-style: italic;
+  }
+  .text-xl {
     font-size: 14px;
+    /* font-style: italic; */
   }
   .footer-info {
     display: flex;
@@ -214,20 +263,153 @@ li {
   .footer-text {
     margin-left: 2px;
   }
+  .logo-compasss {
+    width: 110px;
+    margin-right: 1rem;
+  }
+  .bi-geo-alt,
+  .bi-telephone,
+  .bi-envelope {
+    margin-left: 0.1rem;
+  }
 }
+
+@media (min-width: 376px) and (max-width: 499px) {
+  .footer {
+    height: 7rem;
+    font-style: italic;
+  }
+  .text-xl {
+    font-size: 14px;
+    /* font-style: italic; */
+  }
+  .footer-info {
+    display: flex;
+    align-items: center;
+  }
+  .footer-text {
+    margin-left: 2px;
+  }
+  .logo-compasss {
+    width: 130px;
+    margin-right: 2rem;
+  }
+  .bi-geo-alt,
+  .bi-telephone,
+  .bi-envelope {
+    margin-left: 1.5rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .footer {
+    height: 7rem;
+    font-style: italic;
+  }
+  .text-xl {
+    font-size: 17px;
+    /* font-style: italic; */
+  }
+  .footer-info {
+    display: flex;
+    align-items: center;
+  }
+  .footer-text {
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  .logo-compasss {
+    width: 180px;
+    margin-right: 2rem;
+  }
+  .bi-geo-alt,
+  .bi-telephone,
+  .bi-envelope {
+    margin-left: 1.5rem;
+  }
+}
+
 .logo-compasss {
-  width: 110px;
+  /* width: 110px; */
   height: auto;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    height: 7rem;
+    font-style: italic;
+  }
+  .text-xl {
+    font-size: 19px;
+    /* font-style: italic; */
+  }
+  .footer-info {
+    display: flex;
+    align-items: center;
+  }
+  .footer-text {
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  .logo-compasss {
+    width: 200px;
+    margin-right: 2rem;
+  }
+  .bi-geo-alt,
+  .bi-telephone,
+  .bi-envelope {
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .footer {
+    height: 8rem;
+    font-style: italic;
+  }
+  .text-xl {
+    font-size: 19px;
+    /* font-style: italic; */
+  }
+  .footer-info {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+  }
+  .footer-text {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .logo-compasss {
+    width: 230px;
+    margin-right: 2rem;
+  }
+  .bi-geo-alt,
+  .bi-telephone,
+  .bi-envelope {
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+}
+
+.logo-compasss {
+  /* width: 110px; */
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  /* margin-right: 1rem; */
 }
 
 @font-face {
   font-family: "compasss-font"; /* Nome que você deseja dar à fonte */
-  src: url("C:\Users\leand\OneDrive\Área de Trabalho\projeto compasss - esboço\portal-compasss-esboço\src\assets\Striker-1GXl0.otf"); /* Caminho para o arquivo da sua fonte */
+  src: url("../../assets/Striker-1GXl0.otf"); /* Caminho para o arquivo da sua fonte */
   /* Outras variações de fonte (se aplicável) */
   font-weight: normal; /* Peso da fonte */
   font-style: normal; /* Estilo da fonte */
@@ -241,5 +423,23 @@ li {
   left: 0;
   margin-left: 1rem;
   font-family: "compasss-font";
+  /* font-style: italic; */
   /* font-size: 1rem; */
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 425px) {
+  .responsivity-dropdown {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 426px) {
+  .responsivity-dropdown {
+    margin-left: 2rem;
+  }
 }
