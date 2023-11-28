@@ -4,8 +4,9 @@ export default () => {
   return (
     <>
       <Link to="/floor-selector">
-        <button>selecione o andar</button>
+        <button>Selecione o andar</button>
       </Link>
+      <button style={{ cursor: "pointer" }}>Clique aqui</button>
     </>
   );
 };

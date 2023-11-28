@@ -7,27 +7,25 @@
 
 body {
   position: relative;
-  background-image: url("../esboco-portal-compasss/src/assets/Ativo 3.png");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: center;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Opcional, para garantir que não haja scrollbars */
 }
 
-.body::after {
-  content: "";
+.background-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.8
-  ); /* Cor branca com 80% de opacidade */
+  width: 100%;
+  height: 100%;
+  /* Adicionando opacidade somente ao elemento de fundo */
+  background-image: url("../esboco-portal-compasss/src/assets/Ativo 3.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  opacity: 0.2;
+  z-index: -1; /* Coloca este elemento atrás do conteúdo da página */
+  content: "";
 }

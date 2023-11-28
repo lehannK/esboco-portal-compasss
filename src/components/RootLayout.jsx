@@ -1,4 +1,4 @@
-// import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./styles/RootLayout.css";
 import "./styles/icons/bootstrap-icons/font/bootstrap-icons.css";
 
@@ -112,7 +112,7 @@ export default () => {
           </div>
         </nav>
       </div>
-
+      {/* 
       <div>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptate
         saepe hic totam iste eligendi, cupiditate sed! Et maxime maiores
@@ -241,9 +241,9 @@ export default () => {
         Aut voluptate saepe hic totam iste eligendi, cupiditate sed! Et maxime
         maiores repellat non veritatis, soluta sequi, illum fugit, adipisci ut
         distinctio!
-      </div>
+      </div> */}
 
-      {/* <Outlet />*/}
+      <Outlet />
 
       <div className="fixed-bottom-custom">
         <footer className="footer">
