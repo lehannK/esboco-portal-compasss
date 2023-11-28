@@ -113,7 +113,7 @@ export default () => {
         </nav>
       </div>
 
-      {/* <div className="wrapper">
+      <div>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptate
         saepe hic totam iste eligendi, cupiditate sed! Et maxime maiores
         repellat non veritatis, soluta sequi, illum fugit, adipisci ut
@@ -241,12 +241,12 @@ export default () => {
         Aut voluptate saepe hic totam iste eligendi, cupiditate sed! Et maxime
         maiores repellat non veritatis, soluta sequi, illum fugit, adipisci ut
         distinctio!
-      </div> */}
+      </div>
 
       {/* <Outlet />*/}
 
-      <div className="fixed-bottom ">
-        <footer className="footer  ">
+      <div className="fixed-bottom-custom">
+        <footer className="footer">
           <a href="/">
             <img
               src="../assets/Ativo 3.png"

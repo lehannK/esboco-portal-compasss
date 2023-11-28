@@ -231,6 +231,15 @@ li {
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
   background-color: #212529;
+  width: 100%;
+}
+
+.fixed-bottom-custom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .footer-text {
@@ -425,72 +434,6 @@ li {
   right: 0;
   /* margin-right: 1rem; */
 }
-
-/* @media (min-width: 1441px) {
-  .topbar {
-    height: 5rem;
-  }
-  .container {
-    height: 5rem;
-  }
-  .row {
-    height: 5rem;
-  }
-  .navbar {
-    border-radius: 0px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-  }
-  .nav-link {
-    font-size: 33px;
-  }
-  .bi-linkedin,
-  .bi-instagram,
-  .bi-facebook {
-    font-size: 33px;
-    align-items: center;
-  }
-  .col-sm-12 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 3.2rem;
-  }
-  .social-network {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-  } */
-
-/* .footer {
-    height: 12rem;
-    font-style: italic;
-  }
-  .text-xl {
-    font-size: 40px;
-    padding: 2rem;
-  }
-  .footer-info {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center;
-  }
-  .footer-text {
-    margin-left: 35px;
-    font-size: 26px;
-  }
-  .logo-compasss {
-    width: 430px;
-    margin-right: 5rem;
-  }
-  .bi-geo-alt,
-  .bi-telephone,
-  .bi-envelope {
-    margin-left: 5rem;
-    font-size: 33px;
-  }
-} */
 
 .logo-compasss {
   height: auto;
