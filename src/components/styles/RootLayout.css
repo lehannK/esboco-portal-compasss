@@ -7,6 +7,7 @@ body {
   line-height: 1.5;
   color: #212529;
   background-color: #f7f7f7;
+  width: 100%;
 }
 .navbar {
   display: -ms-flexbox;
@@ -244,6 +245,7 @@ li {
 
 .footer-text {
   font-size: 9px;
+  margin-bottom: 4px;
 }
 
 @media (max-width: 320px) {
@@ -411,7 +413,7 @@ li {
   }
   .footer-text {
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .logo-compasss {
     width: 230px;
@@ -477,5 +479,26 @@ li {
 @media (min-width: 426px) {
   .responsivity-dropdown {
     margin-left: 2rem;
+  }
+}
+
+.container-content {
+  padding: 7.5rem 5rem;
+  text-align: justify;
+}
+
+@media (max-width: 1023px) {
+  .flex-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1025px) {
+  .footer {
+    height: 5.2rem;
+  }
+  .flex-footer {
+    display: flex;
+    flex-direction: row;
   }
 }

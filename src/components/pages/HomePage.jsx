@@ -1,12 +1,8 @@
 import { Link } from "react-router-dom";
+import "../styles/HomePage.css";
 
-export default () => {
-  return (
-    <>
-      <Link to="/floor-selector">
-        <button>Selecione o andar</button>
-      </Link>
-      <button style={{ cursor: "pointer" }}>Clique aqui</button>
-    </>
-  );
+const HomePage = () => {
+  return <></>;
 };
+
+export default HomePage;

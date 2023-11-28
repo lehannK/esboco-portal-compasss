@@ -6212,7 +6212,8 @@
   color: white;
 }
 
-/* .bi-geo-alt:hover {
-  color: #006699;
+.bi-geo-alt:hover {
+  color: #2da837;
   cursor: pointer;
-} */
+  transition: 0.5s;
+}
