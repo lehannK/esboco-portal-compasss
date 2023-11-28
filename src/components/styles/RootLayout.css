@@ -18,7 +18,9 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 5px;
-  border-radius: 7px;
+  border-radius: 0px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .topbar {
@@ -89,7 +91,23 @@ header .navbar {
   padding-left: 18px;
 }
 
-ul.social-network {
+@media (max-width: 991px) {
+  .social-network {
+    border: none;
+    margin: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .social-network {
+    border: none;
+    margin: 0;
+    padding-right: 0.9rem;
+  }
+}
+
+/* ul.social-network {
   border: none;
   margin: 0;
   padding: 0;
@@ -102,7 +120,7 @@ ul.social-network li {
 
 ul.social-network li i {
   margin: 0;
-}
+} */
 
 ul.social-network li {
   display: inline;
@@ -221,7 +239,7 @@ li {
 
 @media (max-width: 320px) {
   .footer {
-    height: 7rem;
+    height: 5.1rem;
     font-style: italic;
   }
   .text-xl {
@@ -249,7 +267,7 @@ li {
 
 @media (min-width: 320px) and (max-width: 375px) {
   .footer {
-    height: 7rem;
+    height: 5.1rem;
     font-style: italic;
   }
   .text-xl {
@@ -276,7 +294,7 @@ li {
 
 @media (min-width: 376px) and (max-width: 499px) {
   .footer {
-    height: 7rem;
+    height: 5.1rem;
     font-style: italic;
   }
   .text-xl {
@@ -303,7 +321,7 @@ li {
 
 @media (min-width: 500px) and (max-width: 768px) {
   .footer {
-    height: 7rem;
+    height: 5.3rem;
     font-style: italic;
   }
   .text-xl {
@@ -341,7 +359,7 @@ li {
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .footer {
-    height: 7rem;
+    height: 5.3rem;
     font-style: italic;
   }
   .text-xl {
@@ -367,9 +385,10 @@ li {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+/* @media (min-width: 1025px) and (max-width: 1440px) { */
+@media (min-width: 1025px) {
   .footer {
-    height: 8rem;
+    height: 6rem;
     font-style: italic;
   }
   .text-xl {
@@ -407,7 +426,7 @@ li {
   /* margin-right: 1rem; */
 }
 
-@media (min-width: 1441px) {
+/* @media (min-width: 1441px) {
   .topbar {
     height: 5rem;
   }
@@ -429,6 +448,7 @@ li {
   .bi-instagram,
   .bi-facebook {
     font-size: 33px;
+    align-items: center;
   }
   .col-sm-12 {
     display: flex;
@@ -441,16 +461,15 @@ li {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-  }
+  } */
 
-  .footer {
+/* .footer {
     height: 12rem;
     font-style: italic;
   }
   .text-xl {
     font-size: 40px;
     padding: 2rem;
-    /* font-style: italic; */
   }
   .footer-info {
     display: flex !important;
@@ -471,16 +490,14 @@ li {
     margin-left: 5rem;
     font-size: 33px;
   }
-}
+} */
 
 .logo-compasss {
-  /* width: 110px; */
   height: auto;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 0;
-  /* margin-right: 1rem; */
 }
 
 @font-face {
