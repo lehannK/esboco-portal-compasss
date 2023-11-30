@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import RootLayout from "./components/RootLayout";
+import RootLayout from "./components/layout/RootLayout";
 import HomePage from "./components/pages/HomePage";
 import FloorSelector from "./components/pages/FloorSelector";
 import ZoneSelector from "./components/pages/ZoneSelector";

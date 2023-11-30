@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import "./styles/RootLayout.css";
-import "./styles/icons/bootstrap-icons/font/bootstrap-icons.css";
+import "../../styles/common/RootLayout.css";
+import "../../styles/icons/bootstrap-icons/font/bootstrap-icons.css";
 
 export default () => {
   return (
