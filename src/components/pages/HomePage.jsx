@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <div className="main-container ">
-        <div className="homepage-container col-4">
+        <div className="homepage-container">
           <figure>
             <img className="floor-map" src={image} alt="planta-do-pavimento" />
             <figcaption className="fig-caption caption-above">
@@ -15,9 +15,9 @@ const HomePage = () => {
             </figcaption>
           </figure>
         </div>
-        {/* <hr /> */}
+        <hr />
         <div className="cia-title">iMile - 5°pav - Padauri</div>
-        <div className="homepage-container col-5">
+        <div className="homepage-container">
           <table className="table">
             <thead className="thead-dark">
               <tr>
@@ -231,7 +231,7 @@ const HomePage = () => {
             </tbody>
           </table>
         </div>
-        <div className="d-flex justify-content-center">
+        <div>
           <button className="btn btn-light" type="submit">
             Enviar
           </button>

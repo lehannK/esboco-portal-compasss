@@ -198,7 +198,7 @@ li {
       #2da837 70%,
       #9ac553 70%
     );
-    background: linear-gradient(45deg, #2da837 0%, #9ac553 70%, #1b1e21 0%);
+    background: linear-gradient(45deg, #2da837 0%, #9ac553 67%, #1b1e21 0%);
   }
 }
 
@@ -281,7 +281,7 @@ li {
   }
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 321px) and (max-width: 375px) {
   .footer {
     height: 5.1rem;
     font-style: italic;
