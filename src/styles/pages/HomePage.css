@@ -565,7 +565,7 @@ img.floor-map {
   }
   .floor-map {
     display: flex;
-    height: 24rem;
+    height: 20rem;
     width: auto;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
@@ -582,7 +582,7 @@ img.floor-map {
     border: 0;
   }
   .table {
-    width: 33rem;
+    width: 27rem;
     margin-top: 4rem;
   }
   .thead-dark tr th {

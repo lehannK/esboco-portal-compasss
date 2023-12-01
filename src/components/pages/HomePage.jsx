@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { useState } from "react-router-dom";
 import "../../styles/pages/HomePage.css";
 import "../../styles/icons/bootstrap-icons/font/bootstrap-icons.css";
 import image from "../../assets/Sem título.png";
@@ -32,12 +32,12 @@ const HomePage = () => {
                     1
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -52,12 +52,12 @@ const HomePage = () => {
                     2
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -72,12 +72,12 @@ const HomePage = () => {
                     3
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -92,12 +92,12 @@ const HomePage = () => {
                     4
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -112,12 +112,12 @@ const HomePage = () => {
                     5
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -132,12 +132,12 @@ const HomePage = () => {
                     6
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -152,12 +152,12 @@ const HomePage = () => {
                     7
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -172,12 +172,12 @@ const HomePage = () => {
                     8
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -192,12 +192,12 @@ const HomePage = () => {
                     9
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
@@ -212,12 +212,12 @@ const HomePage = () => {
                     10
                   </th>
                   <td>
-                    <button type="checkbox" className="btn btn-primary">
+                    <button type="radio" className="btn btn-primary">
                       <i className="bi bi-thermometer-snow"></i>
                     </button>
                   </td>
                   <td>
-                    <button type="checkbox" className="btn btn-success">
+                    <button type="radio" className="btn btn-success">
                       <i className="bi bi-thermometer-sun"></i>
                     </button>
                   </td>
