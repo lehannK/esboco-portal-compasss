@@ -117,7 +117,7 @@ export default () => {
 
       <div className="fixed-bottom-custom">
         <footer className="footer">
-          <a href="/">
+          <a className="logo-compasss-position" href="/">
             <img
               src="../assets/Ativo 3.png"
               alt="logo-compasss"
